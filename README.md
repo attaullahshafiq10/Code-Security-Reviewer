@@ -1,4 +1,4 @@
-# SecureReview — AI-Powered Code Security Reviewer
+# SecureReview — Code Security Reviewer
 
 An AI-powered code security reviewer built on Claude Sonnet. Detects real vulnerabilities with deep semantic understanding — not just pattern matching.
 
@@ -26,65 +26,8 @@ Inspired by [anthropics/claude-code-security-review](https://github.com/anthropi
 - Race conditions, prototype pollution, mass assignment
 
 ## Getting Started
+https://codesecurity.vercel.app/
 
-### 1. Install dependencies
-
-```bash
-npm install
-```
-
-### 2. Run locally
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173).
-
-### 3. Get an API key
-
-Visit [console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys) and create a key. Your key is stored only in `localStorage` on your device.
-
----
-
-## Deploy to Netlify
-
-### Option A: Netlify UI (easiest)
-
-1. Push this project to a GitHub repo
-2. Go to [netlify.com](https://netlify.com) → **Add new site** → **Import from Git**
-3. Select your repo
-4. Build settings are auto-detected from `netlify.toml`:
-   - **Build command**: `npm run build`
-   - **Publish directory**: `dist`
-5. Click **Deploy site**
-
-### Option B: Netlify CLI
-
-```bash
-npm install -g netlify-cli
-netlify login
-netlify deploy --prod --dir=dist
-```
-
----
-
-## Deploy to Vercel
-
-### Option A: Vercel UI (easiest)
-
-1. Push this project to a GitHub repo
-2. Go to [vercel.com](https://vercel.com) → **New Project** → Import your repo
-3. Framework: **Vite** (auto-detected)
-4. Click **Deploy**
-
-### Option B: Vercel CLI
-
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
-```
 
 ---
 
