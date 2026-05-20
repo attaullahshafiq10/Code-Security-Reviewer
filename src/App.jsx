@@ -116,7 +116,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className={styles.footer}>
-        <p>SecureReview · Powered by Claude Sonnet · No backend · API calls go directly to Anthropic</p>
+        <p>SecureReview · No backend · API calls go directly to Anthropic</p>
         <p style={{ marginTop: 4 }}>
           Inspired by{' '}
           <a href="https://github.com/anthropics/claude-code-security-review" target="_blank" rel="noopener noreferrer">
