@@ -35,7 +35,7 @@ export default function App() {
 
           <nav className={styles.nav}>
             <a
-              href="https://github.com/anthropics/claude-code-security-review"
+              href="https://github.com/anthropics"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.navLink}
@@ -65,7 +65,7 @@ export default function App() {
             <span className={styles.heroAccent}>for your codebase</span>
           </h1>
           <p className={styles.heroSub}>
-            Powered by Claude — detects real vulnerabilities with semantic understanding,
+            Detects real vulnerabilities with semantic understanding,
             not just pattern matching. Language agnostic. False-positive filtered.
           </p>
           <div className={styles.heroPills}>
