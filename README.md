@@ -2,8 +2,6 @@
 
 An AI-powered code security reviewer built on Claude Sonnet. Detects real vulnerabilities with deep semantic understanding — not just pattern matching.
 
-Inspired by [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review).
-
 ## Features
 
 - **AI-Powered Analysis** — Claude's reasoning finds vulnerabilities that regex can't
