@@ -29,7 +29,7 @@ export default function App() {
             </div>
             <div>
               <span className={styles.logoName}>SecureReview</span>
-              <span className={styles.logoBadge}>AI-Powered</span>
+              <span className={styles.logoBadge}>NanoTechx</span>
             </div>
           </div>
 
