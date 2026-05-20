@@ -117,6 +117,12 @@ export default function App() {
       {/* Footer */}
       <footer className={styles.footer}>
         <p>SecureReview · No backend · API calls go directly to Anthropic</p>
+        <p style={{ marginTop: 4 }}>
+          by{' '}
+          <a href="https://attaullah.com.pk" target="_blank" rel="noopener noreferrer">
+            Hafiz Muhammad Attaullah
+          </a>
+        </p>
       </footer>
 
       {showKeyModal && (
