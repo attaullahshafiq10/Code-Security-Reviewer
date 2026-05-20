@@ -62,7 +62,7 @@ export default function StreamTab({ apiKey }) {
 
       <div className={streamStyles.info}>
         <Terminal size={13} />
-        Full narrative analysis — technical deep-dive without JSON post-processing. No false-positive filtering.
+        Full narrative analysis - technical deep-dive without JSON post-processing. No false-positive filtering.
       </div>
 
       <textarea
@@ -85,7 +85,7 @@ export default function StreamTab({ apiKey }) {
             Stream Analysis
           </button>
         )}
-        {loading && <span className={styles.status}><span className={styles.dot} />Streaming from Claude...</span>}
+        {loading && <span className={styles.status}><span className={styles.dot} />Streaming...</span>}
       </div>
 
       {error && <div className={styles.error}>{error}</div>}
